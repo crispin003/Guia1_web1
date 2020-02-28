@@ -1,0 +1,318 @@
+{
+    "rows": [
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.COD_SUSCRIPTOR",
+                    "type": "text",
+                    "title": "Número suscriptor",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.NOMBRE",
+                    "type": "text",
+                    "title": "Nombre suscriptor",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.COD_ORDEN",
+                    "type": "text",
+                    "title": "Número orden",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.RUTA",
+                    "type": "text",
+                    "title": "Ruta",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.SECUENCIA",
+                    "type": "text",
+                    "title": "Secuencia",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.DIRECCION",
+                    "type": "text",
+                    "title": "Dirección",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.PERIODICIDAD",
+                    "type": "text",
+                    "title": "Periodicidad",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.CICLO",
+                    "type": "text",
+                    "title": "Ciclo",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.TIPO_ORDEN_DESCRIPCION",
+                    "type": "text",
+                    "title": "Tipo orden",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        },
+        {
+            "views": [
+                {
+                    "reference": "ORDEN_DB.ESTADO_MEDIDA_DESCRIPCION",
+                    "type": "text",
+                    "title": "Estado medida",
+                    "editable": false,
+                    "idSelection": null,
+                    "fk": null,
+                    "dataType": "string",
+                    "required": false
+                }
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "rows": [
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorNumero",
+                            "type": "text",
+                            "title": "Número",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorDireccion",
+                            "type": "text",
+                            "title": "Dirección",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorCantidadDigitos",
+                            "type": "text",
+                            "title": "Cantidad dígitos",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorMarca",
+                            "type": "text",
+                            "title": "Marca",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorLectura",
+                            "type": "text",
+                            "title": "Lectura",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorVecinoNumero",
+                            "type": "text",
+                            "title": "Medidor vecino",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorObservacion",
+                            "type": "text",
+                            "title": "Obserbación",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorAdicional1",
+                            "type": "text",
+                            "title": "Detalle 1",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorAdicional2",
+                            "type": "text",
+                            "title": "Detalle 2",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorAdicional3",
+                            "type": "text",
+                            "title": "Detalle 3",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorAdicional4",
+                            "type": "text",
+                            "title": "Detalle 4",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "views": [
+                        {
+                            "reference": "MedidorAdicional5",
+                            "type": "text",
+                            "title": "Detalle 5",
+                            "editable": false,
+                            "idSelection": null,
+                            "fk": null,
+                            "dataType": "string",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
